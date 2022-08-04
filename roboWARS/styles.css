@@ -18,7 +18,7 @@ h2 {
     text-align: center;
 }
 
-.top-container {
+.top-container{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Robo_1.png") ;
     background-color: #cccccc;
     height: 1000px;
@@ -129,4 +129,34 @@ a:hover {
 
 .social-links{
     text-align: center;
+    background-color: #cccccc;
+    border-radius: 15px;
+}
+
+button{
+    width: 150px;
+    border: 0;
+    padding: 10px 12px;
+    outline: none;
+    color: white;
+    background: linear-gradient(to right, #614385, #516395);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+button img{
+    width: 30px;
+    display: none;
+}
+
+button:hover img{
+    display: block;
+}
+
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
